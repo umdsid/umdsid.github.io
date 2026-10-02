@@ -1,463 +1,193 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Siddharth Sharma | Mathematical Biology & Computational Neuroscience</title>
-    <meta
-      name="description"
-      content="Professional website for Siddharth Sharma, a postdoctoral researcher working across mathematical biology, computational neuroscience, imaging, and network science."
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="page-shell">
-      <header class="site-header">
-        <a class="brand" href="#top" aria-label="Siddharth Sharma home">SS</a>
-        <nav class="site-nav" aria-label="Primary navigation">
-          <a href="#research">Research</a>
-          <a href="#experience">Experience</a>
-          <a href="#publications">Publications</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="header-cta" href="assets/CV_2026.pdf" download>Download CV</a>
-      </header>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Siddharth Sharma — Mathematical Biologist">
+<title>Siddharth Sharma | Mathematical Biologist</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body><main>
+<section class="epigraph">
+<p class="sanskrit" lang="sa">बहुभिर्विप्रलापैः किं त्रैलोक्ये सचराचरे ।<br>यत्किञ्चिद्वस्तु तत्सर्वं गणितेन विना न हि ॥</p>
+<p class="translation">Why say more? Whatever exists in the three worlds,<br>moving or unmoving, has mathematics within it.</p>
+<p class="source">— Mahāvīrācārya, <em>Gaṇitasārasaṅgraha</em>, 1.16</p>
+</section><div class="rule"></div>
 
-      <main id="top">
-        <section class="hero">
-          <div class="section-kicker">Machine Learning • Neuroscience • Criticality</div>
-          <div class="hero-grid">
-            <div class="hero-copy">
-              <p class="hero-intro">Siddharth Sharma</p>
-              <h1>
-                Improving machine learning through neuroscience.
-              </h1>
-              <p class="hero-summary">
-                I learn from the biology of nervous systems to uncover
-                algorithms and structural design principles for machine
-                learning architectures inspired by life.
-              </p>
-            </div>
+<section class="site-shell" id="about">
+<div class="introduction">
+<p>I am a mathematical biologist and computational scientist interested in how living systems organize, transmit, and control information. My research moves between mathematical theory and biological measurement, from spatial transcriptomics and three-dimensional tissue mapping to stochastic networks and the geometry of neural population dynamics. I am particularly interested in how molecular state, spatial organization, and network architecture combine to produce larger-scale biological dynamics, communication, and control.</p>
+<p>My work draws on spatial omics, computational neuroscience, network science, stochastic processes, optimal transport, information geometry, and geometric measure theory. Across these areas, I develop computational methods that connect high-dimensional biological measurements to interpretable mathematical structure. A recurring question is whether biological efficiency lies not only in the properties of individual components, but in the architecture of their interactions. Ultimately, I aim to identify principles of biological organization that can inform both mechanistic biology and new learning systems.</p>
+</div>
+<nav class="primary-nav"><a href="#research">Research</a><a href="#publications">Publications</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#software">Software</a><a href="#contact">Contact</a></nav>
+</section>
 
-            <aside class="hero-panel">
-              <p class="panel-label">Currently</p>
-              <h2>WashU Medicine</h2>
-              <p>
-                Division of Nephrology, Jain Lab
-              </p>
-              <p>
-                St. Louis, Missouri
-              </p>
-              <div class="panel-links">
-                <a href="mailto:siddharths@wustl.edu">siddharths@wustl.edu</a>
-                <a href="https://www.linkedin.com/in/umdsid" target="_blank" rel="noreferrer">
-                  linkedin.com/in/umdsid
-                </a>
-              </div>
-            </aside>
-          </div>
+<section class="content-section" id="research">
+<header class="section-heading"><p class="section-kicker">Research</p><div><h1>Mathematical organization in living systems</h1><p class="section-lede">I study how biological systems build large-scale organization from local interactions: how information propagates, how sparse networks coordinate physiology, and how tissue relationships change with observational scale.</p></div></header>
 
-          <div class="hero-body">
-            <p>
-              I work at the interface of neuroscience, machine learning,
-              stochastic dynamics, and biological imaging. A recurring question
-              across my research is what nervous systems can teach us about the
-              algorithms, organization, and structural motifs behind adaptive
-              intelligence.
-            </p>
-            <p>
-              Recent work includes HuBMAP-aligned mapping of the human kidney
-              neurovascular-nephron complex from 3D light-sheet microscopy,
-              imaging-to-graph pipelines for spatial biology, and dynamical
-              models of neural criticality in whole-brain calcium imaging.
-            </p>
-          </div>
+<article class="research-item"><div class="research-number">01</div><div><h2>Geometry and stochastic dynamics of biological information</h2><p class="question">How should information propagation in a living network be represented mathematically?</p><p>I develop stochastic and geometric descriptions of collective biological dynamics, particularly neural population activity. Current work constructs causal avalanches from networks of càdlàg processes and studies their realizations in physical spacetime and information space. The program connects causal event graphs and random measures with information geometry, affine line families, multiscale incidence geometry, and Kakeya-type questions.</p><p class="methods">Stochastic processes · random measures · information geometry · geometric measure theory</p></div></article>
 
-          <div class="hero-actions">
-            <a class="button button-solid" href="assets/CV_2026.pdf" download>Download CV</a>
-            <a class="button button-ghost" href="mailto:siddharths@wustl.edu">Email Me</a>
-          </div>
+<article class="research-item"><div class="research-number">02</div><div><h2>Network architecture, physiology and control</h2><p class="question">How can sparse biological networks coordinate physiology across large spatial scales?</p><p>I study neural and neurovascular networks as architectures for distributed sensing, communication, and control. Using neural population recordings, three-dimensional human kidney imaging, network inference, and physiological modeling, I investigate how heterogeneous connectivity allows local units to influence larger-scale state. Current work asks whether heavy-tailed innervation provides a scalable access architecture shared across brain and kidney without treating heavy-tailed structure as automatic evidence of equilibrium criticality.</p><p class="methods">Network science · computational neuroscience · connectomics · nonequilibrium control</p></div></article>
 
-          <div class="signal-row">
-            <div>
-              <span class="signal-label">Focus</span>
-              <strong>Improving machine learning through neuroscience</strong>
-            </div>
-            <div>
-              <span class="signal-label">Methods</span>
-              <strong>Criticality, neural dynamics, imaging, and network models</strong>
-            </div>
-            <div>
-              <span class="signal-label">Recent publication</span>
-              <strong>Nature Communications, 2025</strong>
-            </div>
-          </div>
-        </section>
+<article class="research-item"><div class="research-number">03</div><div><h2>Multiscale organization of spatial tissue</h2><p class="question">What persists, and what reorganizes, when biological tissue is represented across scale?</p><p>I develop computational frameworks for spatial transcriptomics that preserve relationships among molecular state, tissue geometry, topology, mechanics, and directional intercellular communication as cellular organization is represented across scale. SUTRA—Spatial Unified Transcriptomic Reconstruction and Analysis (सूत्र)—constructs an auditable multiscale hierarchy while retaining cellular ancestry and biological provenance. The framework uses pooled contextual scales together with specimen-local decisions, allowing shared structure to be compared across tissues without erasing specimen-specific biological organization.</p><p class="methods">Spatial transcriptomics · tissue mechanics · directed communication · multiscale statistics</p></div></article>
 
-        <section class="section" id="research">
-          <div class="section-heading">
-            <p class="section-kicker">Research</p>
-            <h2>Four threads that define my current work.</h2>
-          </div>
+<aside class="direction"><p class="direction-label">Longer-term direction</p><p>These programs converge on a broader question: whether mathematical principles found in living systems—sparse heterogeneous access, causal propagation, multiscale representation, and distributed control—can provide foundations for learning architectures that operate under stringent physical and energetic constraints.</p></aside>
+</section>
 
-          <div class="card-grid">
-            <article class="info-card">
-              <h3>Kidney Structure as Graph</h3>
-              <p>
-                Converting 3D fluorescence light-sheet microscopy into
-                anatomically grounded graphs of glomeruli, vessels, nerves, and
-                ducts, then quantifying multiscale organization across the
-                tissue.
-              </p>
-            </article>
+<section class="content-section" id="publications">
+<header class="section-heading"><p class="section-kicker">Publications</p><div><h1>Selected and recent work</h1><p class="section-lede">Published work and current manuscripts spanning mathematical biology, stochastic geometry, network physiology, and spatial tissue organization.</p></div></header>
 
-            <article class="info-card">
-              <h3>Spatial Biology Pipelines</h3>
-              <p>
-                Building end-to-end imaging pipelines for 3D segmentation,
-                registration, feature extraction, and downstream network
-                analysis aligned with large atlas efforts such as HuBMAP.
-              </p>
-            </article>
+<div class="pub-group"><h2>Current manuscripts</h2><div>
+<article class="publication"><span>2026</span><div><h3>Avalanche Geometry in Networks of RCLL Processes II</h3><p>Siddharth Sharma and Doron Levy</p><small>MANUSCRIPT</small><p class="note">Information-geometric realization of causal avalanches; sticky affine tube families, directional completeness, and Kakeya-type geometry.</p></div></article>
+<article class="publication"><span>2026</span><div><h3>Avalanche Geometry in Networks of RCLL Processes</h3><p>Siddharth Sharma and Doron Levy</p><small>MANUSCRIPT</small><p class="note">A measurable stochastic framework from càdlàg network paths to directed causal event graphs, avalanches, and physical spacetime tubes.</p></div></article>
+<article class="publication"><span>2026</span><div><h3>SUTRA (सूत्र): tissue-constrained multiscale reconstruction of spatial transcriptomic organization</h3><p>Siddharth Sharma and Sanjay Jain</p><small>MANUSCRIPT</small><p class="note">Specimen-local, provenance-preserving reconstruction of molecular, geometric, mechanical, topological, and directional tissue organization across scale.</p></div></article>
+<article class="publication"><span>2026</span><div><h3>Is organ innervation heavy-tailed? From neural connectomes to kidney neurovascular networks</h3><p>Siddharth Sharma and Sanjay Jain</p><small>MANUSCRIPT</small><p class="note">Tests heavy-tailed innervation as a sparse heterogeneous access architecture linking local events to organ-scale physiological state.</p></div></article>
+</div></div>
 
-            <article class="info-card">
-              <h3>Neural Criticality</h3>
-              <p>
-                Studying avalanche statistics and crackling-noise behavior in
-                whole-brain calcium imaging, with models that incorporate
-                asymmetry, probability currents, and plasticity.
-              </p>
-            </article>
+<div class="pub-group"><h2>Published &amp; preprint</h2><div>
+<article class="publication"><span>2025</span><div><h3>Three-dimensional multiscalar neurovascular nephron connectivity map of the human kidney across the lifespan</h3><p><em>Nature Communications</em> 16, 5161</p><small><a href="https://doi.org/10.1038/s41467-025-60435-8">PUBLISHED PAPER ↗</a></small><p class="note">Three-dimensional human kidney mapping of nephron, vascular, and neural organization across development, aging, and disease.</p></div></article>
+<article class="publication"><span>2026</span><div><h3>NetTracer3D: A tool for network analysis of 3D spatial maps</h3><p>Lauren McLaughlin, Mihael Curic, Siddharth Sharma, Rosana Salamon, Masahiro Yamaguchi, Laura M. Lopez, Tarek M. El-Achkar, Adrian R. Gomez, and Sanjay Jain</p><small>SUBMITTED · NATURE METHODS</small><p class="note">Computational analysis of network organization in three-dimensional spatial tissue maps.</p></div></article>
+<article class="publication"><span>2012</span><div><h3>Effect of charge asymmetry and charge screening on structure of superlattices formed by oppositely charged colloidal particles</h3><p>Siddharth Sharma and Sathyanarayana Punnathanam</p><small><a href="https://doi.org/10.1063/1.3700226">JOURNAL OF CHEMICAL PHYSICS ↗</a></small></div></article>
+</div></div>
+</section>
 
-            <article class="info-card">
-              <h3>Inference Far from Equilibrium</h3>
-              <p>
-                Developing latent-variable and optimal-transport methods for
-                inference and control in asymmetric nonequilibrium networks
-                where time-ordered observations may be incomplete or absent.
-              </p>
-            </article>
-          </div>
-        </section>
 
-        <section class="section section-accent">
-          <div class="section-heading">
-            <p class="section-kicker">Selected Contributions</p>
-            <h2>Work shaped by both theory and high-dimensional data.</h2>
-          </div>
+<section class="content-section compact-section" id="education">
+<header class="section-heading">
+<p class="section-kicker">Education</p>
+<div>
+<h1>Training across mathematics, biophysics, and engineering</h1>
+<p class="section-lede">My training began in chemical engineering and statistical mechanics and developed toward inverse problems, stochastic dynamics, and mathematical biology.</p>
+</div>
+</header>
 
-          <div class="contribution-grid">
-            <article class="contribution-card">
-              <p class="card-tag">Spatial Atlas</p>
-              <h3>3D multiscalar mapping of the human kidney</h3>
-              <p>
-                Contributed to a lifespan-scale neurovascular-nephron
-                connectivity map of the human kidney, linking 3D anatomy to
-                measurable mesoscale organization.
-              </p>
-            </article>
+<div class="timeline">
+<article class="timeline-item">
+<div class="timeline-date">2023</div>
+<div>
+<h2>Ph.D. in Biophysics</h2>
+<p class="institution">University of Maryland, College Park · Department of Mathematics</p>
+<p>Dissertation: <em>Inference and Control in Networks Far From Equilibrium</em>. Advisor: Doron Levy.</p>
+</div>
+</article>
 
-            <article class="contribution-card">
-              <p class="card-tag">Tooling</p>
-              <h3>NetTracer3D for network analysis of 3D spatial maps</h3>
-              <p>
-                Helped develop a toolchain for transforming rich spatial tissue
-                maps into analyzable graphs for structural and functional
-                interpretation.
-              </p>
-            </article>
+<article class="timeline-item">
+<div class="timeline-date">2011</div>
+<div>
+<h2>M.S.E. in Chemical Engineering</h2>
+<p class="institution">Indian Institute of Science, Bengaluru</p>
+<p>Research in statistical mechanics and phase behavior of charged colloidal systems.</p>
+</div>
+</article>
 
-            <article class="contribution-card">
-              <p class="card-tag">Neuroscience</p>
-              <h3>Zebrafish sleep and sleep-deprivation analysis</h3>
-              <p>
-                Built preprocessing and event-extraction workflows for
-                whole-brain calcium imaging and used them to study avalanche
-                statistics in sleep-related neural activity.
-              </p>
-            </article>
+<article class="timeline-item">
+<div class="timeline-date">2008</div>
+<div>
+<h2>B.Tech. in Chemical Engineering</h2>
+<p class="institution">Guru Gobind Singh Indraprastha University, Delhi</p>
+<p>Undergraduate research in partial differential equation models of surface diffusion; Best Undergraduate Thesis Award.</p>
+</div>
+</article>
+</div>
+</section>
 
-            <article class="contribution-card">
-              <p class="card-tag">Theory</p>
-              <h3>Inference and control in asymmetric networks</h3>
-              <p>
-                Developed thesis and preprint work on inverse problems,
-                latent-variable likelihood methods, and optimal driving between
-                nonequilibrium steady states of unequal dimensions.
-              </p>
-            </article>
-          </div>
-        </section>
+<section class="content-section compact-section" id="experience">
+<header class="section-heading">
+<p class="section-kicker">Experience</p>
+<div>
+<h1>Computational biology from cells to networks</h1>
+<p class="section-lede">My research combines method development with biological data analysis, imaging, mathematical modeling, and collaborative experimental science.</p>
+</div>
+</header>
 
-        <section class="section" id="experience">
-          <div class="section-heading">
-            <p class="section-kicker">Experience</p>
-            <h2>Research, teaching, and applied systems work.</h2>
-          </div>
+<div class="timeline">
+<article class="timeline-item">
+<div class="timeline-date">2023—present</div>
+<div>
+<h2>Postdoctoral Research Associate · Systems Biology</h2>
+<p class="institution">Washington University School of Medicine · Jain Lab</p>
+<p>Computational and mathematical analysis of human kidney organization using three-dimensional microscopy, spatial transcriptomics, network representations, and physiological modeling. Current work spans spatial-omics methodology, neurovascular–glomerular connectivity, tissue-scale network organization, and models of neural control of renal physiology.</p>
+</div>
+</article>
 
-          <div class="timeline">
-            <article class="timeline-item">
-              <p class="timeline-date">2023 — Present</p>
-              <div>
-                <h3>Postdoctoral Research Associate, Systems Biology</h3>
-                <p class="timeline-meta">
-                  Washington University School of Medicine, Division of
-                  Nephrology
-                </p>
-                <p>
-                  Leading computational work for HuBMAP-aligned kidney mapping,
-                  anatomical graph construction, and multimodal pipelines that
-                  combine histology, spatial transcriptomics, and 3D tissue
-                  structure.
-                </p>
-              </div>
-            </article>
+<article class="timeline-item">
+<div class="timeline-date">2022—2023</div>
+<div>
+<h2>Postdoctoral Research Associate · Computational Neuroscience</h2>
+<p class="institution">Washington University School of Medicine</p>
+<p>Whole-brain calcium-imaging analysis of zebrafish neural population dynamics across natural sleep, induced sleep, and sleep deprivation. Developed computational workflows for motion correction, signal deconvolution, neuronal avalanche analysis, and mechanistic modeling of collective neural dynamics.</p>
+</div>
+</article>
 
-            <article class="timeline-item">
-              <p class="timeline-date">2022 — 2023</p>
-              <div>
-                <h3>Postdoctoral Research Associate, Computational Neuroscience</h3>
-                <p class="timeline-meta">
-                  Washington University School of Medicine, Department of
-                  Developmental Biology
-                </p>
-                <p>
-                  Studied critical dynamics in neuronal populations using
-                  whole-brain zebrafish calcium imaging, motion correction,
-                  deconvolution, and mechanistic stochastic modeling.
-                </p>
-              </div>
-            </article>
+<article class="timeline-item">
+<div class="timeline-date">2014—2022</div>
+<div>
+<h2>Instructor and Graduate Teaching Assistant</h2>
+<p class="institution">University of Maryland, College Park · Mathematics and Information Studies</p>
+<p>Instructor of record for differential equations, applied probability and statistics, introductory statistics, and scientific computing; teaching and mentoring across mathematics, statistics, programming, and quantitative modeling.</p>
+</div>
+</article>
+</div>
+</section>
 
-            <article class="timeline-item">
-              <p class="timeline-date">2014 — 2022</p>
-              <div>
-                <h3>Lecturer and Graduate Teaching Assistant</h3>
-                <p class="timeline-meta">
-                  University of Maryland, College Park
-                </p>
-                <p>
-                  Taught differential equations, probability, statistics,
-                  MATLAB computing, object-oriented programming, and statistical
-                  decision theory across mathematics and information studies.
-                </p>
-              </div>
-            </article>
+<section class="content-section compact-section" id="software">
+<header class="section-heading">
+<p class="section-kicker">Software &amp; Methods</p>
+<div>
+<h1>Computational frameworks for spatial and dynamical biology</h1>
+<p class="section-lede">I build research software around the mathematical objects required by a biological problem, with an emphasis on reproducibility, interpretable structure, and explicit provenance.</p>
+</div>
+</header>
 
-            <article class="timeline-item">
-              <p class="timeline-date">2012 — 2013</p>
-              <div>
-                <h3>Financial Software Consultant</h3>
-                <p class="timeline-meta">
-                  Ministry of Rural Development, Government of India
-                </p>
-                <p>
-                  Maintained and extended software supporting biometric-linked
-                  payment workflows for a distributed public employment system.
-                </p>
-              </div>
-            </article>
-          </div>
+<div class="software-grid">
+<article>
+<h2>SUTRA <span class="dev-status">active development</span></h2>
+<p><strong>Spatial Unified Transcriptomic Reconstruction and Analysis.</strong> A multiscale framework for following molecular, geometric, topological, mechanical, and directional tissue organization while retaining specimen identity and cellular ancestry.</p>
+<p class="methods">Python · spatial transcriptomics · graph methods · optimal transport · multiscale statistics</p>
+</article>
 
-          <div class="education-strip">
-            <div>
-              <span class="signal-label">Ph.D.</span>
-              <strong>Biophysics Program, University of Maryland</strong>
-            </div>
-            <div>
-              <span class="signal-label">M.Sc. (Engg.)</span>
-              <strong>Chemical Engineering, Indian Institute of Science</strong>
-            </div>
-            <div>
-              <span class="signal-label">B.Tech.</span>
-              <strong>Chemical Engineering, GGSIP University</strong>
-            </div>
-          </div>
-        </section>
+<article>
+<h2>3D tissue network analysis</h2>
+<p>Computational pipelines for converting volumetric microscopy into analyzable tissue networks, including segmentation, registration, feature extraction, spatial graph construction, community structure, and network statistics.</p>
+<p class="methods">Python · light-sheet microscopy · computer vision · spatial graphs</p>
+</article>
 
-        <section class="section" id="publications">
-          <div class="section-heading">
-            <p class="section-kicker">Publications</p>
-            <h2>Selected papers, preprints, and ongoing work.</h2>
-          </div>
+<article>
+<h2>Neural population dynamics</h2>
+<p>Analysis and simulation tools for causal avalanches, calcium-imaging time series, stochastic neural networks, directed connectivity, and finite-size cascade statistics.</p>
+<p class="methods">Python · CaImAn · stochastic processes · network dynamics</p>
+</article>
 
-          <div class="publication-list">
-            <article class="publication-item">
-              <p class="publication-type">Peer-reviewed • 2025</p>
-              <h3>
-                Three-dimensional multiscalar neurovascular nephron
-                connectivity map of the human kidney across the lifespan
-              </h3>
-              <p>
-                McLaughlin, Zhang, Sharma, et al. <em>Nature Communications</em>
-                16, 5161.
-              </p>
-              <a href="https://doi.org/10.1038/s41467-025-60435-8" target="_blank" rel="noreferrer">
-                View publication
-              </a>
-            </article>
+<article>
+<h2>Mathematical modeling</h2>
+<p>Methods for inverse problems, stochastic dynamical systems, optimal transport between structured biological states, nonequilibrium network models, and mechanistic models of distributed physiological control.</p>
+<p class="methods">NumPy · SciPy · PyTorch · TensorFlow · MATLAB · R · C++</p>
+</article>
+</div>
+</section>
 
-            <article class="publication-item">
-              <p class="publication-type">Under review</p>
-              <h3>NetTracer3D: A tool for network analysis of 3D spatial maps</h3>
-              <p>
-                McLaughlin, Curic, Sharma, Salamon, Yamaguchi, Lopez,
-                El-Achkar, Gomez, and Jain. Submitted to <em>Nature Methods</em>.
-              </p>
-            </article>
+<section class="content-section contact-section" id="contact">
+<header class="section-heading">
+<p class="section-kicker">Contact</p>
+<div>
+<h1>Research, collaboration, and correspondence</h1>
+<p class="section-lede">I am based at Washington University School of Medicine in Saint Louis.</p>
+</div>
+</header>
 
-            <article class="publication-item">
-              <p class="publication-type">Preprint • 2026</p>
-              <h3>
-                A solution to the inverse problem for asymmetric networks in
-                absence of time-ordered data
-              </h3>
-              <p>
-                Sharma and Levy.
-              </p>
-            </article>
+<div class="contact-grid">
+<div>
+<p class="contact-label">Email</p>
+<p><a href="mailto:siddharths@wustl.edu">siddharths@wustl.edu</a></p>
+</div>
+<div>
+<p class="contact-label">Current affiliation</p>
+<p>Washington University School of Medicine<br>Saint Louis, Missouri</p>
+</div>
+</div>
 
-            <article class="publication-item">
-              <p class="publication-type">Preprint • 2026</p>
-              <h3>
-                Optimal driving between nonequilibrium steady states of unequal
-                dimensions
-              </h3>
-              <p>
-                Sharma and Levy.
-              </p>
-            </article>
-
-            <article class="publication-item">
-              <p class="publication-type">Peer-reviewed • 2012</p>
-              <h3>
-                Effect of charge asymmetry and charge screening on structure of
-                superlattices formed by oppositely charged colloidal particles
-              </h3>
-              <p>
-                Sharma and Punnathanam. <em>The Journal of Chemical Physics</em>
-                136, 134506.
-              </p>
-              <a href="https://doi.org/10.1063/1.3700226" target="_blank" rel="noreferrer">
-                View publication
-              </a>
-            </article>
-          </div>
-        </section>
-
-        <section class="section split-section">
-          <div>
-            <div class="section-heading compact-heading">
-              <p class="section-kicker">Technical Skills</p>
-              <h2>Methods I work with regularly.</h2>
-            </div>
-
-            <div class="skill-groups">
-              <div class="skill-group">
-                <h3>Imaging & Computer Vision</h3>
-                <p>
-                  Light-sheet microscopy workflows, volumetric image processing,
-                  segmentation, registration, co-registration, feature
-                  extraction, microscopy-to-graph pipelines.
-                </p>
-              </div>
-
-              <div class="skill-group">
-                <h3>Machine Learning</h3>
-                <p>
-                  Geometric deep learning, graph neural networks,
-                  representation learning, CNN-based imaging approaches,
-                  time-series and neural data modeling.
-                </p>
-              </div>
-
-              <div class="skill-group">
-                <h3>Mathematics & Modeling</h3>
-                <p>
-                  Probability, stochastic differential equations, optimal
-                  transport, inverse problems, complex networks, community
-                  detection, ODE/PDE and agent-based simulation.
-                </p>
-              </div>
-
-              <div class="skill-group">
-                <h3>Programming</h3>
-                <p>
-                  Python, PyTorch, TensorFlow, MATLAB, C++, R, Spark, NumPy,
-                  and SciPy.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="section-heading compact-heading">
-              <p class="section-kicker">Teaching & Recognition</p>
-              <h2>Academic roles beyond research.</h2>
-            </div>
-
-            <div class="aside-stack">
-              <article class="aside-card">
-                <h3>Teaching</h3>
-                <p>
-                  Instructor of record for differential equations, applied
-                  probability and statistics, introductory statistics, and
-                  MATLAB computing. Tutor for the SIAM summer school on the
-                  mathematics of deep learning.
-                </p>
-              </article>
-
-              <article class="aside-card">
-                <h3>Selected Awards</h3>
-                <p>
-                  Center for Regenerative Medicine Postdoctoral Research
-                  Fellowship, Hockmeyer Fellowship, NSF-sponsored REU
-                  instructor, and Best Undergraduate Thesis Award.
-                </p>
-              </article>
-
-              <article class="aside-card">
-                <h3>Additional Interests</h3>
-                <p>
-                  Condensed matter, phase transitions, nonequilibrium
-                  thermodynamics, cosmology, yoga, and endurance-style fitness.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section contact-section" id="contact">
-          <div class="contact-card">
-            <p class="section-kicker">Contact</p>
-            <h2>
-              Interested in spatial biology, network science, or computational
-              imaging collaborations?
-            </h2>
-            <p>
-              I am always glad to connect around research, academic talks, and
-              collaborative work at the intersection of mathematics, imaging,
-              and biology.
-            </p>
-            <div class="contact-actions">
-              <a class="button button-solid" href="mailto:siddharths@wustl.edu">Email</a>
-              <a
-                class="button button-ghost"
-                href="https://www.linkedin.com/in/umdsid"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-              <a class="button button-ghost" href="assets/CV_2026.pdf" download>CV</a>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="site-footer">
-        <p>Last updated April 2026.</p>
-      </footer>
-    </div>
-  </body>
-</html>
+<footer class="site-footer">
+<p>Siddharth Sharma · Mathematical Biology · Computational Neuroscience · Spatial Omics</p>
+<p><a href="#about">Back to top ↑</a></p>
+</footer>
+</section>
+</main></body></html>
